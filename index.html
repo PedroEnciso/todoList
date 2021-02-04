@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <form name="todos" class="input-area">
+            <input type="text" id="text">
+            <input type="button" value="Add" id="add" onclick="addToTodoList();">
+            <input type="button" value="Clear List" id="clear" onclick="clearTodoList();">
+        </form>
+    </div>
+
+    <div class="listStyle">
+        <ol id="todoList">
+        </ol>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+.container {
+    display: block;
+    margin: 50px auto;
+    border: 4px solid black;
+    border-radius: 30px;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-area {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 21.4px;
+}
+
+.listStyle {
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.listStyle ol {
+    padding: 0 0;
+}
+
+.listStyle ol li {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.listStyle ol li span {
+    padding-left: 40px;
+}
+
+
